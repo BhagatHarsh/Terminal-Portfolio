@@ -210,7 +210,7 @@ const config = {
         }
     ],
     "neofetch": {
-        "name": "Sidharth Sethi",
+        "name": "Harsh Bhagat",
         "title": "MERN Developer",
         "skills": "Frontend, Backend, Cloud",
         "shell": "zsh",
