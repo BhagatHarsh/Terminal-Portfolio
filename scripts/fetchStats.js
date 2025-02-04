@@ -3,7 +3,6 @@
 import config from "../config.js";
 
 //Stat variables
-let connections = 0;
 let githubStats = {};
 let followers = 0,
     following = 0;
@@ -26,19 +25,8 @@ async function fetchGithubSocialStats() {
     following = response.following;
 }
 
-async function fetchLinkedInStats() {
-    const Linkedinkink = config.social.find((c) => c.title === "LinkedIn").link;
-    const LinkedinUsername =
-        Linkedinkink.split("/")[Linkedinkink.split("/").length - 1];
-    const responseRaw = await fetch(
-        `https://api.linkedin.com/v2/connections?q=viewer&projection=(paging)`
-    );
-    const response = await responseRaw.json();
-    connections = response.connections;
-}
-
 async function fetchLeetCodeStats() {
-    const leetcodelink = config.social.find((c) => c.title === "LeetCode").link;
+    const leetcodelink = config.social.find((c) => c.title === "LeetCode").username;
     const leetcodeusername =
         leetcodelink.split("/")[leetcodelink.split("/").length - 1];
     const responseRaw = await fetch(
@@ -81,12 +69,10 @@ async function fetchGithubStats() {
 export {
     //functions exported
     fetchGithubSocialStats,
-    fetchLinkedInStats,
     fetchLeetCodeStats,
     fetchGithubStats,
 
     //variables exported
-    connections,
     githubStats,
     followers,
     following,

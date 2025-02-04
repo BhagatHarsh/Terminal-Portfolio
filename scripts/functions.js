@@ -4,10 +4,8 @@
 import config from "../config.js";
 import {
     fetchGithubSocialStats,
-    fetchLinkedInStats,
     fetchLeetCodeStats,
     fetchGithubStats,
-    connections,
     githubStats,
     followers,
     following,
@@ -113,13 +111,13 @@ async function getInputValue(history, remove = false, cmd = undefined) {
                 let isCmd = false;
                 for (let x of config.help) {
                     if (flag === x.title) {
-                        for (let i=0;i<x.info.length;i++)
+                        for (let i = 0; i < x.info.length; i++)
                             await createText(x.info[i]);
                         isCmd = true;
                         break;
                     }
                 }
-            
+
                 if (!isCmd) {
                     await createText(`${flag} is not a valid command`);
                     let commands = suggestFurtherCommand(flag);
@@ -162,22 +160,21 @@ async function getInputValue(history, remove = false, cmd = undefined) {
                     createText(`${item.title} Link :- <a href=${item.link} target="_blank">${item.link}</a>
             `, false);
                     if (item.title == "Github") {
-                         createText(`Number of followers: ${followers}`);
-                         createText(`Number of following: ${following}`);
+                        createText(`Number of followers: ${followers}`);
+                        createText(`Number of following: ${following}`);
                     }
                     if (item.title == "LinkedIn") {
-                         createText(`Connections : 500+`);
+                        createText(`Connections : 300+`);
                     }
                     if (item.title == "LeetCode") {
-                         createText(`Problems Solved: ${totalSolved}`);
-                         createText(
+                        createText(`Problems Solved: ${totalSolved}`);
+                        createText(
                             `Distribution:- Easy:${easySolved} Medium:${mediumSolved} Hard:${hardSolved}`
                         );
-                         createText(`Ranking: ${ranking}`);
+                        createText(`Ranking: ${ranking}`);
                     }
                     if (item.title == "Codechef") {
-                         createText(`Rank : ${item.rank}`);
-                         createText(`Rating : ${item.rating}`);
+                        createText(`Highest Rating : ${item.rating}`);
                     }
                 });
                 break;

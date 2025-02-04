@@ -99,14 +99,14 @@ const config = {
         }
     ],
     "terminal": {
-        "user": "$Sidharth_Sethi",
+        "user": "$Bhagat_Harsh",
         "host": "sudo",
         "path": "~/guest"
     },
     "blogs": [
         {
-            "site": "Medium",
-            "url": "https://medium.com/feed/@sidharth.sherry"
+            "site": "Dev Community",
+            "url": "https://dev.to/bhagatharsh"
         }
     ],
     "cheer": {
@@ -121,22 +121,21 @@ const config = {
     "social": [
         {
             "title": "Github",
-            "link": "https://github.com/techspiritss"
+            "link": "https://github.com/BhagatHarsh"
         },
         {
             "title": "LinkedIn",
-            "link": "https://www.linkedin.com/in/sidharthsethiss",
-            "connections": "500+"
+            "link": "https://www.linkedin.com/in/harsh-bhagat-376446235/",
         },
         {
             "title": "LeetCode",
-            "link": "https://leetcode.com/techspiritss"
+            "username": "habhagat2003",
+            "link": "https://leetcode.com/u/habhagat2003/"
         },
         {
             "title": "Codechef",
-            "link": "https://www.codechef.com/users/techspiritss",
-            "rating": "1670",
-            "rank": "22,497"
+            "link": "https://www.codechef.com/users/atomus3007",
+            "rating": "1648"
         }
     ],
     "projects": [

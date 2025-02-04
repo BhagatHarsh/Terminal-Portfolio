@@ -2,8 +2,7 @@
 
 import { greenBtn, yellowBtn, redBtn, themeBtn } from "./scripts/buttons.js";
 import {
-    fetchGithubSocialStats, fetchLinkedInStats, fetchLeetCodeStats, fetchGithubStats,
-    connections,
+    fetchGithubSocialStats, fetchLeetCodeStats, fetchGithubStats,
     githubStats,
     followers, following,
     ranking, totalSolved, easySolved, mediumSolved, hardSolved,
@@ -82,7 +81,6 @@ async function openTerminal() {
 
 //fetch statisticss from ./scripts/fetchStats.js
 fetchGithubSocialStats();
-fetchLinkedInStats();
 fetchLeetCodeStats();
 fetchGithubStats();
 
@@ -104,7 +102,7 @@ let switches = document.getElementsByClassName("main-switch");
 let style = localStorage.getItem("style");
 
 if (style == null) {
-    setTheme("default");
+    setTheme("dracula");
 } else {
     setTheme(style);
 }
