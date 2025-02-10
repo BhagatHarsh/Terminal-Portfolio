@@ -8,11 +8,15 @@ let userBlogs = [];
 let IpDetails = [];
 let userRepos = [];
 
+const githubLink = config.social.find((c) => c.title === "Github").link;
+const githubUsername =
+    githubLink.split("/")[githubLink.split("/").length - 1];
+
 // functions defined
 const getContributors = async () => {
     try {
         const response = await fetch(
-            "https://api.github.com/repos/TechSpiritSS/Terminal-Portfolio/contributors"
+            `https://api.github.com/repos/${githubUsername}/Terminal-Portfolio/contributors`
         )
             .then((response) => response.json())
             .then((data) => {
@@ -75,7 +79,7 @@ const getIPDetails = async () => {
 const getRepo = async () => {
     try {
         const response = await fetch(
-            "https://api.github.com/users/TechSpiritSS/repos"
+            `https://api.github.com/users/${githubUsername}/repos`
         )
             .then((response) => response.json())
             .then((data) => {

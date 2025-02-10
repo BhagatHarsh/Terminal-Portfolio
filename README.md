@@ -5,7 +5,7 @@
 </div>
 
 ![image](https://user-images.githubusercontent.com/76687985/210350014-65e73f81-4819-44ad-a182-3b8e7f584416.png)
-[see live here!](https://techspiritss.github.io/Terminal-Portfolio/)
+[see live here!](https://bhagatharsh.github.io/Terminal-Portfolio/)
 
 ### *Terminal Portfolio*
 
