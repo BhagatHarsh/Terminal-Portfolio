@@ -9,11 +9,11 @@
 
 ### *Terminal Portfolio*
 
-![Issues](https://img.shields.io/github/issues/TechSpiritSS/Terminal-Portfolio?color=brightgreen)
-![Pull requests](https://img.shields.io/github/issues-pr/TechSpiritSS/Terminal-Portfolio)
-![Forks](https://img.shields.io/github/forks/TechSpiritSS/Terminal-Portfolio)
-![Stars](https://img.shields.io/github/stars/TechSpiritSS/Terminal-Portfolio)
-![Licence](https://img.shields.io/github/license/TechSpiritSS/Terminal-Portfolio?color=orange)
+![Issues](https://img.shields.io/github/issues/BhagatHarsh/Terminal-Portfolio?color=brightgreen)
+![Pull requests](https://img.shields.io/github/issues-pr/BhagatHarsh/Terminal-Portfolio)
+![Forks](https://img.shields.io/github/forks/BhagatHarsh/Terminal-Portfolio)
+![Stars](https://img.shields.io/github/stars/BhagatHarsh/Terminal-Portfolio)
+![Licence](https://img.shields.io/github/license/BhagatHarsh/Terminal-Portfolio?color=orange)
 
 ---
 

@@ -36,7 +36,7 @@ import {
 
 const app = document.querySelector("#app");
 let delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const resumeUrl = "https://drive.google.com/u/0/uc?id=1J8QGMreVTsC-K-d5bpKV1BVNXxrCUYQa&export=download";
+const resumeUrl = "https://github.com/BhagatHarsh/BhagatHarsh";
 
 //Defining the functions
 function neofetch() {
