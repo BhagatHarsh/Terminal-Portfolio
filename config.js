@@ -136,7 +136,7 @@ const config = {
             "That's so good to hear! I'm glad😍😍😍",
         ],
     },
-    about: "Hey! Myself Harsh Bhagat, I am a final year student at Ahmedabad University doing by Bachelor's degree in computer science and engineering.",
+    about: "Hey! Myself Harsh Bhagat, I am a final year student at Ahmedabad University doing by Bachelor's degree in computer science and engineering. I am passionate about coding and problem solving. I have a good grasp on data structures and algorithms. I have worked on various projects using MERN stack. I am a quick learner and always ready to learn new technologies. I am looking for opportunities where I can learn and grow.",
     social: [
         {
             title: "Github",
@@ -159,21 +159,21 @@ const config = {
     ],
     projects: [
         {
-            title: "",
-            link: "https://github.com/",
-            description:
-                "",
+            "title": "OdinLabs - Coding Platform",
+            "link": "https://github.com/Kushalp47/OdinLabs",
+            "description": "Developed an in-house application using WebRTC for real-time monitoring of 200+ students during lab sessions and DSA contests. Implemented key security features like local network restrictions, single-time sign-in, and full-screen mode, reducing cheating by 95%. Enhanced classroom management and practice environment, leading to 10k submissions and over 4 lakh database operations in 3 months."
         },
+
     ],
     contact: {
         email: "habhagat2003@gmail.com",
     },
     experience: [
         {
-            title: "React Developer at EQ Soft Solutions",
-            description:
-                "▪️ Acquired a strong foundation in ReactJS, including in-depth knowledge of key concepts such as routing, reducer, and Axios. \n ▪️ Demonstrated the ability to effectively apply ReactJS principles and techniques in projects and assignments. \n ▪️ Developed a solid understanding of the ReactJS ecosystem, including popular libraries and tools. \n ▪️ Demonstrated adaptability and a willingness to continuously learn and stay up-to-date with developments in the ReactJS field.",
+            "title": "Software Developer Intern",
+            "description": "Developed a stone listing website, Stone Stocks, from scratch using Quarkus, Vert.x, HTMX, and PostgreSQL, focusing on reactive programming. Implemented REST APIs and integrated Keycloak for user authentication and authorization. Optimized backend performance with asynchronous programming using Vert.x."
         },
+
     ],
     skills: [
         {
