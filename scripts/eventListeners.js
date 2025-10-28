@@ -2,16 +2,9 @@
 
 //Imports done
 import {
-    neofetch,
-    removeNeoFetch,
     getInputValue,
     new_line,
     removeInput,
-    trueValue,
-    falseValue,
-    createText,
-    createCode,
-    downloadFile
 } from "./functions.js";
 import { commandsList } from "../script.js";
 
